@@ -1,0 +1,10 @@
+{
+  "name": "tiny-assumption-watch",
+  "version": "1.0.0",
+  "description": "Tiny TypeScript assumption watcher. A report records what it assumed and rebuilds only when an assumption moves past its tolerance. No API key. No network.",
+  "main": "watch.ts",
+  "scripts": { "start": "tsx watch.ts", "typecheck": "tsc --noEmit" },
+  "author": "Bobby Hall Jr",
+  "license": "MIT",
+  "devDependencies": { "@types/node": "^22.10.0", "tsx": "^4.19.2", "typescript": "^5.7.2" }
+}

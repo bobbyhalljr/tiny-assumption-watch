@@ -1,0 +1,10 @@
+tiny-assumption-watch demo
+v1: Annual cost $57600. 74 of 120 seats used. Renew as is.
+
+mon [FRESH]  nothing moved
+tue [NOISE]  seats 120 -> 124 (3.3%, tol 10%); usageRate 0.62 -> 0.6 (3.2%, tol 15%)
+wed [REDO]   pricePerSeat 40 -> 44 (10.0%, tol 5%)
+         v2: Annual cost $65472. 74 of 124 seats used. Renew as is.
+thu [ASK]    no live value for usageRate
+fri [REDO]   usageRate 0.6 -> 0.41 (31.7%, tol 15%)
+         v3: Annual cost $65472. 51 of 124 seats used. Cut seats before renewing.
